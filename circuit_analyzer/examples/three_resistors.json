@@ -1,0 +1,10 @@
+{
+    "name": "Три резистора последовательно",
+    "description": "Три резистора соединены последовательно с источником 12В",
+    "components": [
+        {"name": "V1", "type": "V", "node1": 0, "node2": 1, "value": 12},
+        {"name": "R1", "type": "R", "node1": 1, "node2": 2, "value": 100},
+        {"name": "R2", "type": "R", "node1": 2, "node2": 3, "value": 200},
+        {"name": "R3", "type": "R", "node1": 3, "node2": 0, "value": 300}
+    ]
+}

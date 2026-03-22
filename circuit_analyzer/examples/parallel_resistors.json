@@ -1,0 +1,9 @@
+{
+    "name": "Параллельные резисторы",
+    "description": "Два резистора подключены параллельно к источнику 12В",
+    "components": [
+        {"name": "V1", "type": "V", "node1": 0, "node2": 1, "value": 12},
+        {"name": "R1", "type": "R", "node1": 1, "node2": 0, "value": 100},
+        {"name": "R2", "type": "R", "node1": 1, "node2": 0, "value": 200}
+    ]
+}

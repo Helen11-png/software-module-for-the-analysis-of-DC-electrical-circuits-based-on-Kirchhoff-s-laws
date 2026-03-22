@@ -1,0 +1,12 @@
+{
+    "name": "Мост Уитстона",
+    "description": "Сбалансированный мост Уитстона (R1/R2 = R3/R4 = 0.5)",
+    "components": [
+        {"name": "V1", "type": "V", "node1": 0, "node2": 1, "value": 10},
+        {"name": "R1", "type": "R", "node1": 1, "node2": 2, "value": 100},
+        {"name": "R2", "type": "R", "node1": 2, "node2": 0, "value": 200},
+        {"name": "R3", "type": "R", "node1": 1, "node2": 3, "value": 150},
+        {"name": "R4", "type": "R", "node1": 3, "node2": 0, "value": 300},
+        {"name": "R5", "type": "R", "node1": 2, "node2": 3, "value": 1000}
+    ]
+}
